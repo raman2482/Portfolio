@@ -1,0 +1,105 @@
+/* header */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(2, 2, 44);
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(15, 15, 103);
+}
+
+
+.line{
+    border: 0;
+    background: rgb(130, 130, 234);
+    height: 1px;
+}
+
+.less{
+    margin: 0px 50px;
+}
+
+.left{
+    font-size: 1.5rem;
+    margin-left: 40px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    text-decoration: none;
+    color:rgb(197, 172, 221);
+    font-size: 1.04rem;
+}
+
+
+/* main */
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    align-items: center;
+}
+ 
+.first > .rightsection{
+    text-align: center;
+}
+
+.leftsection{
+    font-size: 2.5rem;
+}
+
+.rightsection img{
+    width: 70%;
+}
+
+#element{
+   color:rgba(160, 146, 245, 0.852);
+   font-style:italic;
+}
+
+.second{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.second div a{
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    padding:8px 4px;
+}
+
+.second div{
+    display:flex;
+    height: 30px;
+}
+.second div img{
+    height: 30px;
+}
+.second div:hover{
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 0px 2px;
+}
